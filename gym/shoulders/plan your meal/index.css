@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2; /* light gray background */
+}
+
+#food-input {
+    width: 50%;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* white background */
+    color: #333; /* dark gray text */
+}
+
+#submit-btn {
+    background-color: #333; /* vibrant pink background */
+    color: #fff; /* white text */
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#submit-btn:hover {
+    background-color: #333; /* lighter pink background on hover */
+}
+
+#food-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f9f9f9; /* light gray background */
+    border: 1px solid #ccc; /* light gray border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#food-list li {
+    padding: 15px;
+    border-bottom: 1px solid #ccc; /* light gray border */
+    background-color: #fff; /* white background */
+    color: #333; /* dark gray text */
+}
+
+#food-list li:hover {
+    background-color: #f2f2f2; /* light gray background on hover */
+}
+
+#recipe-container {
+    margin-top: 30px;
+    padding: 30px;
+    border: 1px solid #ccc; /* light gray border */
+    border-radius: 10px;
+    background-color: #f9f9f9; /* light gray background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#recipe-container h2 {
+    color: #333; /* vibrant pink text */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#recipe-container p {
+    font-size: 18px;
+    color: #333; /* dark gray text */
+    margin-bottom: 20px;
+}
+
+#recipe-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#recipe-container li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* light gray border */
+    background-color: #fff; /* white background */
+    color: #333; /* dark gray text */
+}
+
+#recipe-container li:hover {
+    background-color: #f2f2f2; /* light gray background on hover */
+}
